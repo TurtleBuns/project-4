@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: inherit;
+}
+html,body,#root,#welcome,#app{
+    height: 100%;
+}
+#welcome{
+    background-image: url(http://media-channel.nationalgeographic.com/media/uploads/photos/content/video/2016/10/04/778945603828_Mars_BigThinker_Mars101.mov.00_01_00_21.Still001.jpg);
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: center;
+    
+}
+#welcome h1{
+    color: #ffffff;
+    position: absolute;
+    width: 33%;
+    top:15%;
+    left: 33%;
+}
