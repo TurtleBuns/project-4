@@ -3,22 +3,43 @@
     padding: 0px;
     list-style: none;
     text-decoration: inherit;
+    font-family: 'Barlow', sans-serif;
 }
-html,body,#root,#welcome,#app{
+
+html,body,#root,#welcome-container,#app{
     height: 100%;
+    
 }
-#welcome{
+
+#welcome-container{
     background-image: url(http://media-channel.nationalgeographic.com/media/uploads/photos/content/video/2016/10/04/778945603828_Mars_BigThinker_Mars101.mov.00_01_00_21.Still001.jpg);
     background-position:center center;
     background-size: cover;
     background-repeat: no-repeat; 
-    text-align: center;
-    
+    display: flex;
+    align-items: center;
+    min-width: 100%;
 }
-#welcome h1{
-    color: #ffffff;
-    position: absolute;
-    width: 33%;
-    top:15%;
-    left: 33%;
+
+#welcome{
+    color: #000000;
+    background-color: rgba(150, 52, 10, 0.877);
+    font-size: 3em;
+    font-weight: 900;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+#click-here{
+    font-size: 30px;
+    color:red;
+    font-weight: 300;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+    }

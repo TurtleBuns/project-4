@@ -15,8 +15,10 @@ export default class App extends Component {
 class Home extends Component{
   render(){
     return(
-      <div id="welcome">
-        <h1>Welcome</h1>
+      <div id="welcome-container">
+        <div id="welcome">
+          <pre>MISSION REPORT<span id="mars-highlight">:MARS</span></pre><a href="#" id="click-here" >CLICK HERE TO ENTER</a>
+        </div>
       </div>
     )
   }
